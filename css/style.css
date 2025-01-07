@@ -797,7 +797,6 @@ form button {
             justify-content: space-around;
             position: relative;
             padding: 10px;
-            width: 100%;
         }
 
         .gallery4 img {
@@ -818,6 +817,7 @@ form button {
             flex-direction: column;
             gap: 0px;
             width: 100%;
+            padding: auto;
         }
 
         .main-content8 {
@@ -886,6 +886,7 @@ form button {
             padding: 30px;
             position: relative;
             width: 100%;
+            text-align: center;
         }
 
         .right-set2 {
@@ -935,12 +936,20 @@ form button {
         form button {
             background-color: #0066FF;
             color: white;
-            padding: 15px 100px;
+            padding: 15px 70px;
             border-radius: 10px;
             border: none;
             cursor: pointer;
             font-size: 20px;
             font-weight: 600;
+        }
+
+        .textp {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
         }
 
         .nam {
@@ -1047,8 +1056,9 @@ form button {
         }
 
         .menu2 {
-            display: block;
+            display: flex;
             padding: 20px;
+            justify-content: flex-end;
         }
 
         .menu2 img {
