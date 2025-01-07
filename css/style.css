@@ -613,7 +613,7 @@ form button {
         text-decoration: none;
     }
     .footer-links {
-       
+       display: flex;
     }
     .gallery7 img {
         height: 288px;
@@ -684,6 +684,7 @@ form button {
             display: flex;
             color: black;
             font-weight: bold;
+            text-align: center;
         }
 
         .cta-section img {
@@ -695,10 +696,11 @@ form button {
         .right-set h2 {
             font-size: 30px;
             font-weight: 900;
+            text-align: center;
         }
 
         .main-content2 img {
-            height: 150px;
+            height: 50px;
         }
 
         .main-content2 {
@@ -707,7 +709,7 @@ form button {
         }
 
         .left-set2 h2 {
-            font-size: 20px;
+            font-size: 15px;
             font-weight: bold;
             position: relative;
             text-align: center;
@@ -748,6 +750,7 @@ form button {
         .footer-links .link-columns {
             display: flex;
             gap: 25px;
+            flex-direction: column;
         }
 
         .steps-section {
@@ -796,16 +799,16 @@ form button {
         }
 
         .right-img2 img {
-            height: 139px;
-            width: 138px;
+            height: 109px;
+            width: 107px;
         }
         .left-set2 {
         padding: 25px;
         }
 
         .gallery7 img {
-            height: 150px;
-            width: 250px;
+            height:0px;
+            width: 0px;
             margin-bottom: 0px;
         }
 
@@ -902,8 +905,8 @@ form button {
         }
         
         .nam img {
-            height: 373px;
-            width: 200px;
+            height:0px;
+            width:0px;
         }
 
         .step {
@@ -918,22 +921,26 @@ form button {
         .step h3 {
             font-size: 30px;
             font-weight: 900;
+            text-align: center;
         }
 
         .left-set2 h3 {
-            font-size: 60px;
+            font-size: 50px;
             font-weight: bold;
-            position: relative;
+            text-align: center;
         }
+        
+        
         .but {
             display: flex;
             justify-content: center;
         }
 
         .text h2 {
-            font-size: 18px;
+            font-size: 25px;
             font-weight: 900;
             margin-bottom: 25px;
+            text-align: center;
         }
 
         .random img {
@@ -947,6 +954,50 @@ form button {
             width: 0px;
             top: 156px;
             right: 10px;
+        }
+
+        .icon-card2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .random img {
+            height: 0px;
+            position: relative;
+        }
+        .free img {
+            height: 300px;
+            position: relative;
+            width: 0px;
+            top: 156px;
+            right: 10px;
+        }
+
+        .random img {
+            height: 0px;
+            position: relative;
+        }
+
+        .but {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
         }
       
     }
