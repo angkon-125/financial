@@ -767,6 +767,9 @@ form button {
             width: 0px;
             margin-bottom: 0px;
         }
+        .right-set4 {
+            display: block;
+        }
     
         header {
             display: none;
@@ -896,6 +899,7 @@ form button {
         .main-content3 {
             display: flex;
             flex-direction: column;
+            margin-top: 50px;
         }
     
         .main-content4 {
@@ -1081,6 +1085,9 @@ form button {
             text-align: center;
         }
         
+        .right-set4 {
+            display: none;
+        }
     }
     
   
