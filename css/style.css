@@ -1023,6 +1023,7 @@ form button {
     
         .step p {
             width: 260px;
+            text-align: center;
         }
     
         .steps-section {
@@ -1069,6 +1070,15 @@ form button {
         .arow {
             display: flex;
             justify-content: center;
+        }
+        .footer-links a {
+            color: #fff;
+            text-decoration: underline;
+            font-size: 18px;
+        }
+
+        .textp p {
+            text-align: center;
         }
         
     }
